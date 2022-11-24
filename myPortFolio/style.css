@@ -1,0 +1,43 @@
+body{
+    background-color: #A5F1E9;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.nav{
+    background-color: #7FE9DE ;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.nav ul li{
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: azure;
+}
+
+li a:hover{
+    color: #FFF6BF;
+}
+li a:active{
+    color: black;
+}
